@@ -121,7 +121,7 @@ class PrinterController extends Controller
             if($updated){
                 return response()->json([
                     'success'=>true,
-                    'data'=>$updated
+                    'data'=>$printer
                 ],200);
             }
             else{
